@@ -1,33 +1,26 @@
-# MCD-UdeG
-## Programacion-I
+# Programación I - Desafío 1: Palíndromos
 
-...by Maria Elba Becerra Jimenez
+Este repositorio contiene la solución al "Desafío 1" y consiste en un programa para determinar si la palabra o frase ingresada por el usuario es un palíndromo.
 
+## Palíndromos
+Un palíndromo es aquella palabra o frase cuyas letras están dispuestas de tal manera que resulta la misma leída de izquierda a derecha que de derecha a izquierda.
 
-Bienvenido al repositorio de la asignatura **Programación I**, correspondiente a la **Maestría en Ciencia de Datos**. Este espacio reúne los materiales, ejercicios y proyectos orientados al aprendizaje del lenguaje Python y al desarrollo de soluciones computacionales aplicadas al análisis de datos.
+## Características del programa
+Para cumplir con los criterios de robustez y funcionalidad requeridos, el programa:
+- Ignora por completo las mayúsculas y minúsculas.
+- Elimina espacios en blanco y signos de puntuación (.,!?¡¿).
+- Normaliza caracteres para eliminar acentos (por ejemplo, "ó" se evalúa como "o").
+- Incluye control de errores para evitar entradas vacías.
 
-Durante el curso se abordarán los fundamentos de programación, el manejo de variables y estructuras de control, la manipulación de cadenas y archivos, las estructuras de datos, la programación orientada a objetos, las expresiones regulares, los servicios web y la integración con bases de datos SQL.
-
-Asimismo, se utilizarán herramientas para la depuración y prueba de programas, así como **Git y GitHub** para el control de versiones y el desarrollo colaborativo.
-
-## Objetivo
-
-Desarrollar las habilidades necesarias para diseñar, implementar, depurar y documentar programas en Python, integrando buenas prácticas de programación y herramientas de colaboración.
-
-## Contenido general
-
-1. Arquitectura y fundamentos de Python.
-2. Variables, tipos de datos y estructuras de control.
-3. Manipulación de cadenas.
-4. Lectura y escritura de archivos.
-5. Estructuras de datos.
-6. Expresiones regulares.
-7. Programación orientada a objetos.
-8. Sockets y servicios web.
-9. Bases de datos SQL.
-10. Depuración y pruebas de código.
-11. Control de versiones con Git y GitHub.
-
-## Recursos del repositorio
-
-En este repositorio se publicarán ejemplos, prácticas, actividades y proyectos desarrollados durante el curso.
+## Casos de prueba evaluados
+El programa se ejecutó exitosamente con las siguientes cadenas:
+1. `Anita lava la tina` -> SÍ es un palíndromo (elimina espacios en blanco, ignora mayúculas y minúsculas).
+2. `luz azul` -> SÍ es un palíndromo.
+3. `Dábale arroz a la zorra el abad` -> SÍ es un palíndromo
+4. `programación` -> NO es un palíndromo.
+5. `oso` -> SÍ es un palíndromo.
+6. `anita lava la Tina` -> SÍ es un palíndromo.
+7. `se es o no se es` -> SÍ es un palíndromo.
+8. `buenos días` -> NO es un palíndromo.
+9. `reconocer` -> -> SÍ es un palíndromo.
+10. `UdG` -> NO es un palíndromo.
