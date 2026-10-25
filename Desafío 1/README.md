@@ -24,3 +24,5 @@ El programa se ejecutó exitosamente con las siguientes cadenas:
 8. `buenos días` -> NO es un palíndromo.
 9. `reconocer` -> -> SÍ es un palíndromo.
 10. `UdG` -> NO es un palíndromo.
+
+Mover README del Desafío 1 a su carpeta.
